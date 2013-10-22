@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-9-14 11:57:00 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="njau.org.entity.Document" table="Document" catalog="Portal">
+        <id name="documentId" type="int">
+            <column name="DocumentId" />
+            <generator class="identity" />
+        </id>
+        <property name="type" type="string">
+            <column name="type" length="200" not-null="true" />        
+        </property>
+        <property name="isTop" type="int">
+            <column name="isTop" not-null="true" />
+        </property>
+        <property name="isDelete" type="int">
+            <column name="isDelete" not-null="false" />
+        </property>
+        <property name="title" type="string">
+            <column name="title" length="200" not-null="true" />
+        </property>
+        <property name="addTime" type="date">
+            <column name="addTime" length="19" not-null="true" />
+        </property>
+        <property name="updateTime" insert="false" update="false" type="date">
+            <column name="updateTime" length="19" not-null="false" />
+        </property>
+        <property name="content" type="string">
+            <column name="content" length="65535" />
+        </property>
+        <property name="description" type="string">
+            <column name="description" length="500" />
+        </property>
+        <property name="memo" type="string">
+            <column name="memo" length="500" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-9-14 11:57:00 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="njau.org.entity.Announce" table="Announce" catalog="Portal">
+        <id name="id" type="int">
+            <column name="Id" />
+            <generator class="native" />
+        </id>
+        <property name="title" type="string">
+            <column name="title" length="200" not-null="true" />
+        </property>
+        <property name="description" type="string">
+            <column name="description" length="500" />
+        </property>
+        <property name="url" type="string">
+            <column name="url" length="200" />
+        </property>
+        <property name="addTime" type="date">
+            <column name="addTime" length="19" not-null="true" />
+        </property>
+        <property name="updateTime" update="false" insert="false" type="timestamp">
+            <column name="updateTime" length="19" />
+        </property>
+    </class>
+</hibernate-mapping>

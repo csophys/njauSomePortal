@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-9-14 11:57:00 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="njau.org.entity.User" table="User" catalog="Portal">
+        <id name="userId" type="int">
+            <column name="userId" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column name="username" length="200" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="50" not-null="true" />
+        </property>
+        <property name="powerCode" type="java.lang.Byte">
+            <column name="powerCode">
+                <comment>1:????? 2????</comment>
+            </column>
+        </property>
+    </class>
+</hibernate-mapping>

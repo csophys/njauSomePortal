@@ -1,0 +1,70 @@
+body{
+	text-align: center;
+	margin:3px;
+}
+
+.layout-body{
+  overflow: hidden
+}
+
+img{
+	border-width: 0
+}
+
+.newsList li{
+	list-style-type : none;
+	height:28px; /*列表项的高度*/ 
+	line-height:28px; /*列表项的行高，行高与高设为相同，文字垂直居中*/ 
+	text-indent:20px; /*文字缩进15个像素，不然压到图表了*/ 
+	background-position:left 45%; /*北京图片的定位*/ 
+	background-repeat:no-repeat; /*禁止图片平铺，显示一个就好了*/ 	
+	background-image:url("../images/laba.png"); /*图片的url地址*/ 
+
+}
+
+
+#website-body{
+	width:80%;
+	height:1200px;
+	margin:0 auto;
+	/* border:1px solid black; */
+}
+
+#header{
+	width:100%;
+	height:280px;
+	 /* border:1px solid black; */ 
+}
+
+#bottom{
+	width:100%;
+	height:130px;
+	/* border:1px solid black; */
+}
+
+#banner{
+	height: 240px;
+	border: 1px solid black;
+	background-image: url("../images/banner.jpg");
+}
+
+#announceList li{
+	line-height:28px; /*列表项的行高，行高与高设为相同，文字垂直居中*/
+	font-size:14px
+}
+
+.documentList li{
+	background-image:url("../images/category.gif");
+	font-size:14px
+}
+
+
+
+.panel-title{
+	font-size:14px
+}
+
+a:link {text-decoration: none;color: #000000}		/* 未访问的链接 */
+a:visited {color: #000000}	/* 已访问的链接 */
+a:hover {text-decoration: underline;color: #000}	/* 鼠标移动到链接上 */
+a:active {color: #000}

@@ -1,0 +1,40 @@
+<script type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
+
+<div  title="添加留言" id="main-body"  style="padding:20px" >
+	       		<form id="articleUploadForm" method="post">
+		       	    <div style="height:150px;width:100%;">
+		       	    	留言标题： 
+		       	    	<input type="text"  style="width:200px" id="documentTitle" name="document.title" value="" />
+						<input type="text"  style="display:none" id="documentTitle" name="document.type" value="留言板" />		       	    	
+		       		</div>
+		       		<div style="margin-top:-80px;height:460px;width:100%" >
+		       			<textarea name="document.content"  id="ckeditor"></textarea>
+		       		</div>
+
+		       		<div>
+		       			<input class="easyui-linkbutton" id="submitArticle" type="button"  value="提交" />
+		       		</div>
+	       		</form>
+	       		
+</div >
+<script>
+	    $().ready(function (){
+
+	        CKEDITOR.replace( 'ckeditor' );
+
+           	$("#articleUploadForm").attr("action", "uploadMessage");
+	        
+	    	$("#submitArticle").click(function (){
+				
+	    		if($("#documentTitle").val()!=''){
+	    			$("#articleUploadForm").submit();
+	    		}
+	    		else{
+	    			alert("留言标题不能为空");
+	    		}
+    			
+	    	});	        
+
+	    });
+</script>	    
+		       	

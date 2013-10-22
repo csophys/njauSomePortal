@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.multipart.maxSize" value="100000000"/>
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	 
+	<package namespace="/" name="test" extends="struts-default">
+		<action name="test" class="njau.org.action.Test" method="test">
+			<result name="success">/index.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>		
+		
+		<action name="uploadFile" class="njau.org.action.UploadAction" method="uploadFile" >
+		</action>
+		
+		<action name="uploadArticle" class="njau.org.action.DocumentAction" method="uploadArticle" >
+			<result name="success">/adminManagement.jsp</result>
+		</action>
+		
+		<action name="uploadMessage" class="njau.org.action.DocumentAction" method="uploadArticle" >
+			<result name="success">/index.jsp</result>
+		</action>		
+		
+		<action name="updateArticle" class="njau.org.action.DocumentAction" method="updateArticle" >
+			<result name="success">/adminManagement.jsp</result>
+		</action>		
+		
+		<action name="updateAnnounce" class="njau.org.action.DocumentAction" method="updateAnnounce" >
+			<result name="success">/adminManagement.jsp</result>
+		</action>		
+		
+		<action name="uploadAnnounce" class="njau.org.action.DocumentAction" method="uploadAnnounce" >
+			<result name="success">/adminManagement.jsp</result>
+		</action>
+		
+		<action name="uploadImage" class="njau.org.action.DocumentAction" method="uploadImage" >
+			<result name="success">/adminManagement.jsp</result>
+		</action>	
+		
+		<action name="updateImage" class="njau.org.action.DocumentAction" method="updateImage" >
+			<result name="success">/adminManagement.jsp</result>
+		</action>			
+		
+		<action name="initArticle" class="njau.org.action.DocumentAction" method="initArticle" >
+			<result name="success" type="freemarker">/articleInfo.ftl</result>
+		</action>	
+
+		<action name="initAnnounce" class="njau.org.action.DocumentAction" method="initAnnounce" >
+			<result name="success" type="freemarker">/announceInfo.ftl</result>
+		</action>
+		
+		<action name="initImage" class="njau.org.action.DocumentAction" method="initImage" >
+			<result name="success">/imageInfo.jsp</result>
+		</action>
+		
+
+		<action name="deleteDocumentById" class="njau.org.action.DocumentAction" method="deleteDocumentById" >
+			<result name="success">/adminManagement.jsp</result>
+		</action>			
+		
+		
+		<action name="findDocument" class="njau.org.action.DocumentAction" method="findDocument" >
+		</action>	
+			
+		
+		<action name="newsDetail" class="njau.org.action.DocumentAction" method="getDocumentById" >
+			<result name="success">/newsDetail.jsp</result>
+		</action>		
+		
+		<action name="newsList" class="njau.org.action.DocumentAction" method="findDocumentList" >
+			<result name="success">/newsList.jsp</result>
+		</action>		
+		
+		
+		<action name="findAnnounce" class="njau.org.action.DocumentAction" method="findAnnounce" >
+			<result name="success">/adminManagement.jsp</result>
+		</action>
+		
+		<action name="findImage" class="njau.org.action.DocumentAction" method="findImage" >
+			<result name="success">/adminManagement.jsp</result>
+		</action>		
+		
+		<action name="login" class="njau.org.action.DocumentAction" method="login" >
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		<action name="adminLogin" class="njau.org.action.DocumentAction" method="adminLogin" >
+			<result name="success">/adminManagement.jsp</result>
+			<result name="input" type="freemarker">/error.ftl</result>
+		</action>		
+		
+		
+
+		<action name="reg" class="njau.org.action.DocumentAction" method="reg" >
+			<result name="success">/index.jsp</result>		
+		</action>	
+		
+		
+		<action name="ifUserExist" class="njau.org.action.DocumentAction" method="ifUserExist" >
+		</action>			
+		
+		
+		<action name="loginOut" class="njau.org.action.DocumentAction" method="loginOut" >
+		<result name="success">/index.jsp</result> 
+		</action>				
+			
+		
+	</package>
+</struts>
