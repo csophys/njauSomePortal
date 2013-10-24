@@ -97,11 +97,10 @@ window.onload=menuFix;
 //--><!]]>
 </script>	
 
-       <div id="header" style="z-index:8000；overflow:auto" data-options="region:'north'">
-       		<div data-options="fit:true">
+       <div id="header">
 	       	   <div id="banner">
 	       	   </div>
-	       	   <div id="menu" style="z-index:20;position: absolute;" >
+	       	   <div id="menu" style="" >
 					<ul id="nav">
 					<li><a href="#">产品介绍</a>
 					<ul>
@@ -165,5 +164,4 @@ window.onload=menuFix;
 					</li>
 					</ul>
 	       	   </div>
-       	   </div>
        </div>

@@ -1,5 +1,5 @@
   <%@ page language="java" contentType="text/html; charset=UTF8" pageEncoding="UTF8"%>
-      <div id="bottom" data-options="region:'south'"  style="text-align: center">
+      <div id="bottom" style="text-align: center">
 		<div style="margin-top:0px">
 			<table id="__01" width="1004" height="62" border="0" cellpadding="0" cellspacing="0" align="center">
 				<tbody><tr>

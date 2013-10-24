@@ -25,14 +25,20 @@ img{
 
 #website-body{
 	width:80%;
-	height:800px;
+	height:500px;
 	margin:0 auto;
-	/* border:1px solid black; */
+    border:1px solid black; 
+}
+
+
+#imageArea{
+	width:100%;
+	height:100%;	
 }
 
 #header{
 	width:100%;
-	height:160px;
+	height:125px;
 	 /* border:1px solid black; */ 
 }
 
