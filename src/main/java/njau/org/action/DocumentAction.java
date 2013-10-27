@@ -215,7 +215,7 @@ public class DocumentAction extends BaseAction{
 	public static List<Document> findDocument(String type){
 		ArticleInfoDto articleInfoDto = new ArticleInfoDto();
 		articleInfoDto.setType(type);
-		return new DocumentService().findList(articleInfoDto, 1, 6).getRows();
+		return new DocumentService().findList(articleInfoDto, 1, 12).getRows();
 	}
 	
 	// 首页获取image列表，最新六张照片

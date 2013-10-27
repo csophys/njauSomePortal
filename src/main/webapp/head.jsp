@@ -10,7 +10,7 @@ font-family: arial, 宋体, serif;
 
 
 #nav {
-    line-height: 24px;    list-style-type: none; background:#666;
+    line-height: 24px;    list-style-type: none; background:#B0151B;
 }
 
 #nav a {
@@ -18,17 +18,17 @@ display: block; width: 80px; text-align:center;
 }
 
 #nav a:link    {
-color:#666; text-decoration:none;
+color:white; text-decoration:none;
 }
 #nav a:visited    {
-color:#666;text-decoration:none;
+color:white;text-decoration:none;
 }
 #nav a:hover    {
-color:#FFF;text-decoration:none;font-weight:bold;
+color:white;text-decoration:none;font-weight:bold;
 }
 
 #nav li {
-float: left; width: 80px; background:#CCC;
+float: left; width: 120px; background:#B0151B; /* 这里调整每一个li的长度 还有 颜色*/
 }
 #nav li a:hover{
 background:#999;
@@ -44,7 +44,7 @@ background: #F6F6F6;
 
 
 #nav li ul a{
-display: block; width: 180px;w\idth: 156px;text-align:left;padding-left:24px;
+display: block; width: 180px;width: 156px;text-align:left;padding-left:24px;
 }
 
 #nav li ul a:link    {
@@ -100,7 +100,7 @@ window.onload=menuFix;
        <div id="header">
 	       	   <div id="banner">
 	       	   </div>
-	       	   <div id="menu" style="" >
+	       	   <div id="menu" style="text-align:center;" >
 					<ul id="nav">
 					<li><a href="#">产品介绍</a>
 					<ul>
