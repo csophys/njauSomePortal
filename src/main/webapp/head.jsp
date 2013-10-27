@@ -28,7 +28,7 @@ color:white;text-decoration:none;font-weight:bold;
 }
 
 #nav li {
-float: left; width: 120px; background:#B0151B; /* 这里调整每一个li的长度 还有 颜色*/
+float: left; width: 110px; background:#B0151B; /* 这里调整每一个li的长度 还有 颜色*/
 }
 #nav li a:hover{
 background:#999;
@@ -102,66 +102,51 @@ window.onload=menuFix;
 	       	   </div>
 	       	   <div id="menu" style="text-align:center;" >
 					<ul id="nav">
-					<li><a href="#">产品介绍</a>
+					<li><a href="index.jsp">网站首页</a>
+					</li>
+					<li><a href="#">科研动态</a>
 					<ul>
-					<li><a href="#">产品一</a></li>
-					<li><a href="#">产品一</a></li>
-					<li><a href="#">产品一</a></li>
-					<li><a href="#">产品一</a></li>
-					<li><a href="#">产品一</a></li>
-					<li><a href="#">产品一</a></li>
+					<li><a href="#">项目公告</a></li>
+					<li><a href="#">学术动态</a></li>
+					<li><a href="#">图片新闻</a></li>
 					</ul>
 					</li>
-					<li><a href="#">服务介绍</a>
+					<li><a href="#">项目介绍</a>
 					<ul>
-					<li><a href="#">服务二</a></li>
-					<li><a href="#">服务二</a></li>
-					<li><a href="#">服务二</a></li>
-					<li><a href="#">服务二服务二</a></li>
-					<li><a href="#">服务二服务二服务二</a></li>
-					<li><a href="#">服务二</a></li>
+					<li><a href="#">项目说明</a></li>
+					<li><a href="#">项目组构成</a></li>
+					<li><a href="#">相关研究论文</a></li>
+					<li><a href="#">研究队伍</a></li>
 					</ul>
 					</li>
-					<li><a href="#">成功案例</a>
+					<li><a href="#">相关知识</a>
 					<ul>
-					<li><a href="#">案例三</a></li>
-					<li><a href="#">案例</a></li>
-					<li><a href="#">案例三案例三</a></li>
-					<li><a href="#">案例三案例三案例三</a></li>
-					</ul>
-					</li>
-					<li><a href="#">关于我们</a>
-					<ul>
-					<li><a href="#">我们四</a></li>
-					<li><a href="#">我们四</a></li>
-					<li><a href="#">我们四</a></li>
-					<li><a href="#">我们四111</a></li>
+					<li><a href="#">相关研究论文（英文）</a></li>
+					<li><a href="#">水稻细菌性病害研究论文（中文）</a></li>
+					<li><a href="#">水稻细菌性病害学位论文（中文）</a></li>
 					</ul>
 					</li>
 					
-					<li><a href="#">在线演示</a>
+					<li><a href="#">项目进展</a>
 					<ul>
-					<li><a href="#">演示</a></li>
-					<li><a href="#">演示</a></li>
-					<li><a href="#">演示</a></li>
-					<li><a href="#">演示演示演示</a></li>
-					<li><a href="#">演示演示演示</a></li>
-					<li><a href="#">演示演示</a></li>
-					<li><a href="#">演示演示演示</a></li>
-					<li><a href="#">演示演示演示演示演示</a></li>
+					<li><a href="#">标注（nyhyzx07-056)支持的论文</a></li>
+					<li><a href="#">工作进展</a></li>
 					</ul>
+					</li>
+					<li><a href="#">远程诊断</a>
+					<ul>
+					<li><a href="#">图文诊断</a></li>
+					<li><a href="#">视频诊断</a></li>
+					<li><a href="#">其他诊断</a></li>
+					</ul>
+					</li>
+					<li><a href="#">专家答疑</a>
+					</li>
+				    <li><a href="#">专家队伍</a>
 					</li>
 					<li><a href="#">联系我们</a>
-					<ul>
-					<li><a href="#">联系联系联系联系联系</a></li>
-					<li><a href="#">联系联系联系</a></li>
-					<li><a href="#">联系</a></li>
-					<li><a href="#">联系联系</a></li>
-					<li><a href="#">联系联系</a></li>
-					<li><a href="#">联系联系联系</a></li>
-					<li><a href="#">联系联系联系</a></li>
+					</li>					
 					</ul>
-					</li>
-					</ul>
+					
 	       	   </div>
        </div>

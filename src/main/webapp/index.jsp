@@ -72,7 +72,7 @@
 	       	  		<img src="images/newsImages/4.jpg" />
  
        		</div>
-       		<div id="projectAnnounce" class="showBorder" style="height:100%;width:25%;float:left">
+       		<div id="projectAnnounce" class="showBorder" style="margin-left:10px;height:100%;width:25%;float:left">
 					 <ul id="announceList" style="margin-left:5px" >
 
   						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
