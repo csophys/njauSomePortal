@@ -3,7 +3,7 @@
 
 <html>
 <head>
-	<title>这是一个标题</title>
+	<title>中国水稻细菌病害防控协作网</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 	<%    
@@ -63,7 +63,7 @@
    <jsp:include page="head.jsp"></jsp:include>	
    <!-- main body，中间部分 -->
 		<div id="main" class="showBorder" style="height:500px;width:100%" >       
-       	<div class="showBorder" style="height:280px;width:100%">
+       	<div class="showBorder" style="height:280px;width:100%;border-bottom: 1px dashed grey;margin-bottom: 5px;padding-bottom: 5px">
        		<div id="imageArea" class="showBorder" style="height:100%;width:49%;float:left;">
 				
 	       	  		<img src="images/newsImages/1.jpg" />
@@ -73,6 +73,7 @@
  
        		</div>
        		<div id="projectAnnounce" class="showBorder" style="margin-left:10px;height:100%;width:25%;float:left">
+       				<img src="images/gongao.gif" width="244" height="25" />
 					 <ul id="announceList" style="margin-left:5px" >
 
   						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
@@ -121,6 +122,7 @@
        	</div>
        	<div class="showBorder" style="height:55%">
        		<div id="projectProgress" class="showBorder" style="height:100%;width:25%;float:left">
+       		<img src="images/jinzhan.gif" width="244" height="25" />
 					 <ul class="newsList" >
 
   						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
@@ -132,6 +134,7 @@
 					</ul>        		
        		</div>
       		<div id="relatedknowlegde" class="showBorder" style="height:100%;width:24%;float:left">
+				 <img src="images/xiangguanzhishi.gif" width="244" height="25" />      		
 					 <ul class="newsList" >
 
   						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
@@ -143,6 +146,7 @@
 					</ul>       		
        		</div>       		
        		<div id="remoteDiagnose" class="showBorder" style="height:100%;width:25%;float:left">
+				 <img src="images/yuancheng.gif" width="244" height="25" />       		
 					 <ul class="newsList" >
 
   						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
@@ -154,6 +158,7 @@
 					</ul>        		
        		</div>
        		<div id="professialQAndA" class="showBorder" style="height:100%;width:25%;float:left">
+				  <img src="images/dayi.gif" width="244" height="25" />       		
 					 <ul class="newsList" >
 
   						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
