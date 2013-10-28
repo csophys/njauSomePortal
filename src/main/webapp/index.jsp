@@ -13,10 +13,16 @@
 	<script type="text/javascript">
 		var base = '<%=base %>';
 	</script>
-
+	
 	<link rel="stylesheet" type="text/css" href="<%=base %>css/index.css">
 	<script type="text/javascript" src="<%=base %>js/jquery-easyui/jquery.min.js"></script>
 	<script type="text/Javascript" src="<%=base %>js/jquery.slides.min.js"></script>
+	<style type="text/css">
+	.link-button{
+		background-color: green;
+		padding:3px
+	}
+	</style>
 	
 </head>
 			
@@ -85,7 +91,7 @@
 					</ul>       		
        		</div>
        		<div id="loginArea" class="showBorder" style="height:100%;width:22%;float:left">
-	       	 	<table  border="0" cellspacing="0" cellpadding="0" style="margin:0px 0 0 40px;width:100%">
+	       	 	<table  border="0" cellspacing="0" cellpadding="0" style="margin:100px 0 0 10px;width:100%">
 	
 	       	 	<s:if test="#session['username']==null">
 					<tbody>
