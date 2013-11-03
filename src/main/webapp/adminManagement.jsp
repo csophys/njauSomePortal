@@ -33,13 +33,13 @@
 
 <body >
    <!-- 网站主体 -->
-   <div  id="website-body"  class="easyui-layout">
+   <div  id="website-body" >
    
    <!-- header部门，包括banner和menu -->
    <jsp:include page="head.jsp"></jsp:include>
 
    <!-- main body，中间部分 -->
-       <div id="main" data-options="region:'center',title:'后台管理'"  >
+       <div id="main" style="height:550px" >
        
        	<div id="win"></div>
        	
@@ -52,13 +52,25 @@
 			<label class="searchBox" style="margin-left:5px;border-width:0px;">文章模块：</label>
 			-->
 			<div id="role" style="display:none"><s:property value="#session['role']" /></div>
-			<select id="articleTag" class="easyui-combobox" style="width:75px;" data-options="required:true,panelHeight:'auto',editable:false">
-				<option value="新闻资讯">新闻资讯</option>
-				<option value="专家门诊">专家门诊</option>
-				<option value="工作快讯">工作快讯</option>
-				<option value="技术简报">技术简报</option>
-				<option value="病虫害识别与防控">病虫害识别与防控</option>
-				<option value="留言板">留言板</option>				
+			<select id="articleTag" class="easyui-combobox" style="width:200px;" data-options="required:true,panelHeight:'auto',editable:false">
+				<option value="项目公告">项目公告</option>
+				<option value="学术动态">学术动态</option>
+				<option value="图片新闻">图片新闻</option>
+				<option value="项目说明">项目说明</option>
+				<option value="项目组构成">项目组构成</option>
+				<option value="相关研究论文">相关研究论文</option>
+				<option value="研究队伍">研究队伍</option>
+				<option value="相关研究论文">相关研究论文 (英文)</option>
+				<option value="水稻细菌性病害研究论文">水稻细菌性病害研究论文(中文)</option>
+				<option value="水稻细菌性病害学位论文">水稻细菌性病害学位论文 (中文) </option>
+				<option value="标注">标注(nyhyzx07-056)支持的论文</option>
+				<option value="工作进展">工作进展</option>
+				<option value="图文诊断">图文诊断</option>
+				<option value="视频诊断">视频诊断</option>
+				<option value="其他诊断">其他诊断</option>
+				<option value="专家答疑">专家答疑</option>
+				<option value="专家队伍">专家队伍</option>
+				<option value="联系我们">联系我们</option>		
 
 			</select>
 			<a href="#" id="SearchForCondition" class="easyui-linkbutton" style="margin-left:20px;">搜索</a>
@@ -73,12 +85,12 @@
 			   <table id="imageDataGrid" title="图片列表" class="easyui-datagrid"  style="height:450px">
   			  </table>
 	       </div>
-
+			<!-- 
 	       <div title="公告管理" data-options="" style="padding:20px">
 			   <table id="announceDataGrid" title="公告列表" class="easyui-datagrid"  style="height:450px">
   			  </table>
 	       </div>
-
+			-->
 		</div>
 	  </div>
 

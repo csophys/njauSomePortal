@@ -1,9 +1,7 @@
 $(function() {
-
-	if ($("#role").text() != "admin") {
-		alert("你没有操作本页面的权限！");
-		return;
-	}
+	/*
+	 * if ($("#role").text() != "admin") { alert("你没有操作本页面的权限！"); return; }
+	 */
 	initCurrentTab();
 
 });

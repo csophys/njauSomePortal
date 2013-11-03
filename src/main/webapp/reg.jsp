@@ -80,13 +80,13 @@
 
 <body >
    <!-- 网站主体 -->
-   <div  id="website-body"  class="easyui-layout">
+   <div  id="website-body" >
    
    <!-- header部门，包括banner和menu -->
    <jsp:include page="head.jsp"></jsp:include>
 
    <!-- main body，中间部分 -->
-       <div id="main" data-options="region:'center'" style="margin-top:10px">
+       <div id="main" style="height:550px">
        <div  id="main-body"  class="easyui-layout" data-options="fit:true">
        	  <div id="left-main" data-options="region:'center',title:'用户注册'" style="height:100%;">
 			   <div class="preHide"  style="display:none;width:100%;text-align: center" >
@@ -120,9 +120,7 @@
 
        	  </div>
        	  
-		<!-- body 右侧边栏 -->
-		<jsp:include page="body-right.jsp"></jsp:include>      	  
-       	  
+
        	</div>
        </div>
    <!-- bottom 底部 -->   	 

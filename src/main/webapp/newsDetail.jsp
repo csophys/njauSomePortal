@@ -13,19 +13,13 @@
 
 	</script>
 
-	<link rel="stylesheet" type="text/css" href="<%=base %>js/jquery-easyui/themes/metro-green/easyui.css">
-	<link rel="stylesheet" type="text/css" href="<%=base %>js/jquery-easyui/themes/icon.css">
 	<link rel="stylesheet" type="text/css" href="<%=base %>css/index.css">
 	
 	<script type="text/javascript" src="<%=base %>js/jquery-easyui/jquery.min.js"></script>
-	<script type="text/javascript" src="<%=base %>js/jquery-easyui/jquery.easyui.min.js"></script>
-	<script type="text/javascript" src="<%=base %>js/jquery-easyui/locale/easyui-lang-zh_CN.js"></script>
+		<script type="text/javascript" src="<%=base %>js/jquery-easyui/locale/easyui-lang-zh_CN.js"></script>
 	<script type="text/Javascript" src="<%=base %>js/jquery.slides.min.js"></script>
 	
 	<script type="text/javascript">
-	$(function(){
-		$(".preHide").css("display","block");		
-	})
 	</script>
 </head>
 			
@@ -33,24 +27,21 @@
 
 <body >
    <!-- 网站主体 -->
-   <div  id="website-body"  class="easyui-layout">
+   <div  id="website-body" >
    
    <!-- header部门，包括banner和menu -->
    <jsp:include page="head.jsp"></jsp:include>
 
    <!-- main body，中间部分 -->
-       <div id="main" data-options="region:'center'" style="margin-top:10px">
-       <div  id="main-body"  class="easyui-layout" data-options="fit:true">
-       	  <div id="left-main" data-options="region:'center',title:'新闻详情'" style="height:100%;">
-			   <div class="preHide" id="content" style="display:none" >
+       <div>
+       	<div id="leftNavigation">
+       	</div>
+       	<div id="rightArea">
+       		<div id="imageArea"></div>
+       		<div id="moduleTitle"></div>
+       		<div id="content" style="" >
 				  <s:property value="document.content" escape="false"/>
-			   </div>
-
-       	  </div>
-
-		<!-- body 右侧边栏 -->
-		<jsp:include page="body-right.jsp"></jsp:include>        	  
-       	  
+			</div>
        	</div>
        </div>
    <!-- bottom 底部 -->   	 

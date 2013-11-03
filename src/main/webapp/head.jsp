@@ -104,7 +104,7 @@ window.onload=menuFix;
 					<ul id="nav">
 					<li><a href="index.jsp">网站首页</a>
 					</li>
-					<li><a href="#">科研动态</a>
+					<li><a href="newsList.jsp">科研动态</a>
 					<ul>
 					<li><a href="#">项目公告</a></li>
 					<li><a href="#">学术动态</a></li>
@@ -129,7 +129,7 @@ window.onload=menuFix;
 					
 					<li><a href="#">项目进展</a>
 					<ul>
-					<li><a href="#">标注（nyhyzx07-056)支持的论文</a></li>
+					<li><a href="#">标注(nyhyzx07-056)支持的论文</a></li>
 					<li><a href="#">工作进展</a></li>
 					</ul>
 					</li>
