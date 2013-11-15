@@ -178,25 +178,89 @@ public class DocumentAction extends BaseAction{
 	}
 	
 	public String findDocumentList(){
-		if(articleInfoDto.getType().equals("xwzx")){
-			articleInfoDto.setType("新闻资讯");
-		} else if (articleInfoDto.getType().equals("zjmz")) {
-			articleInfoDto.setType("专家门诊");
-		} else if (articleInfoDto.getType().equals("lyb")) {
-			articleInfoDto.setType("留言板");
-		} else if (articleInfoDto.getType().equals("gzkx")) {
-			articleInfoDto.setType("工作快讯");
-		} else if (articleInfoDto.getType().equals("jsjb")) {
-			articleInfoDto.setType("技术简报");
-		} else if (articleInfoDto.getType().equals("bchsb")) {
-			articleInfoDto.setType("病虫害识别与防控");
+		if (articleInfoDto.getType().equals("xmgg")) {
+			articleInfoDto.setType("项目公告");
+			invokeFindDocumentList();
+			return "news";
+		} else if (articleInfoDto.getType().equals("xsdt")) {
+			articleInfoDto.setType("学术动态");
+			invokeFindDocumentList();
+			return "news";
+		} else if (articleInfoDto.getType().equals("tpxw")) {
+			articleInfoDto.setType("图片新闻");
+			invokeFindDocumentList();
+			return "news";
+		} else if (articleInfoDto.getType().equals("xmsm")) {
+			articleInfoDto.setType("项目说明");
+			invokeFindDocumentList();
+			return "projectInfo";
+		} else if (articleInfoDto.getType().equals("xmzgc")) {
+			articleInfoDto.setType("项目组构成");
+			invokeFindDocumentList();
+			return "projectInfo";
+		} else if (articleInfoDto.getType().equals("xglwyj")) {
+			articleInfoDto.setType("相关论文研究");
+			invokeFindDocumentList();
+			return "projectInfo";
+		} else if (articleInfoDto.getType().equals("yjdw")) {
+			articleInfoDto.setType("研究队伍");
+			invokeFindDocumentList();
+			return "projectInfo";
+		} else if (articleInfoDto.getType().equals("xglwyje")) {
+			articleInfoDto.setType("相关论文研究（英文）");
+			invokeFindDocumentList();
+			return "projectInfo";
+		} else if (articleInfoDto.getType().equals("xjyjpaperz")) {
+			articleInfoDto.setType("水稻细菌性病害研究论文（中文）");
+			invokeFindDocumentList();
+			return "paper";
+		} else if (articleInfoDto.getType().equals("xjxwpaperz")) {
+			articleInfoDto.setType("水稻细菌性病害学位论文（中文）");
+			invokeFindDocumentList();
+			return "paper";
+		} else if (articleInfoDto.getType().equals("specialPaper")) {
+			articleInfoDto.setType("相标注(nyhyzx07-056)支持的论文");
+			invokeFindDocumentList();
+			return "projectprocess";
+		} else if (articleInfoDto.getType().equals("workprocess")) {
+			articleInfoDto.setType("工作进展");
+			invokeFindDocumentList();
+			return "projectprocess";
+		} else if (articleInfoDto.getType().equals("imageDiagnose")) {
+			articleInfoDto.setType("图片诊断");
+			invokeFindDocumentList();
+			return "diagnose";
+		} else if (articleInfoDto.getType().equals("vedioDiagnose")) {
+			articleInfoDto.setType("视频诊断");
+			invokeFindDocumentList();
+			return "diagnose";
+		} else if (articleInfoDto.getType().equals("otherDiagnose")) {
+			articleInfoDto.setType("其他诊断");
+			invokeFindDocumentList();
+			return "diagnose";
+		} else if (articleInfoDto.getType().equals("professialQuestion")) {
+			articleInfoDto.setType("专家答疑");
+			invokeFindDocumentList();
+			return "question";
+		} else if (articleInfoDto.getType().equals("zjdw")) {
+			articleInfoDto.setType("专家队伍");
+			invokeFindDocumentList();
+			return "zjdw";
+		} else if (articleInfoDto.getType().equals("lxwm")) {
+			articleInfoDto.setType("联系我们");
+			invokeFindDocumentList();
+			return "lxwm";
 		}
+
+		return "news";
+	}
+
+	private void invokeFindDocumentList() {
 		ResponseDto<Document> responseDto = documentService.findList(articleInfoDto,pageNo,pageSize);
 		documentList = responseDto.getRows();
 		if(responseDto .getTotal() != 0){
 			totalPage = (int)Math.ceil((double)responseDto .getTotal() /pageSize) ;
 		}
-		return SUCCESS;
 	}
 	
 	public String getDocumentById(){

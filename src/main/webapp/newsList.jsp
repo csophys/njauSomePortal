@@ -32,10 +32,12 @@
 
    <!-- main body，中间部分 -->
        <div>
-       	<div id="leftNavigation">
+       	<div class="leftNavigation">
        	</div>
        	<div id="rightArea">
-       		<div id="imageArea"></div>
+       		<div id="imageArea">
+
+       		</div>
        		<div id="moduleTitle"></div>
        		<div id="newsList">
        		<ul class="newsList">

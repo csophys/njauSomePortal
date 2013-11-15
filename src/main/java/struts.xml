@@ -70,7 +70,14 @@
 		</action>		
 		
 		<action name="newsList" class="njau.org.action.DocumentAction" method="findDocumentList" >
-			<result name="success">/newsList.jsp</result>
+			<result name="news">/news.jsp</result>
+			<result name="projectInfo">/projectAbout.jsp</result>
+			<result name="paper">/contextKnowledge.jsp</result>
+			<result name="projectprocess">/projectProcess.jsp</result>
+			<result name="diagnose">/remoteDiagnose.jsp</result>
+			<result name="question">/professialAnswer.jsp</result>
+			<result name="zjdw">/professialTeam.jsp</result>
+			<result name="lxwm">/contactUs.jsp</result>
 		</action>		
 		
 		

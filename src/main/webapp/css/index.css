@@ -66,6 +66,12 @@ img{
 	background-image:url("../images/announceListImg.gif"); /*图片的url地址*/ 
 }
 
+.normalNewsList li{
+	height:28px; /*列表项的高度*/ 
+	line-height:28px; /*列表项的行高，行高与高设为相同，文字垂直居中*/ 
+	text-indent:5px; /*文字缩进15个像素，不然压到图表了*/ 
+}
+
 .documentList li{
 	background-image:url("../images/category.gif");
 	font-size:14px
@@ -87,4 +93,22 @@ a:active {color: #000}
 
 .showBorder{
 	overflow: hidden;
+}
+
+.leftNavigation{
+	width:200px;
+	text-align:left;
+	float:left
+}
+
+.moduleName{
+	font-size:17px;
+}
+
+.rightArea{
+	text-align: left;
+	float:left;
+}
+.newsListArea{
+	padding-left:20px
 }

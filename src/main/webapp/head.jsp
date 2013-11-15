@@ -104,47 +104,47 @@ window.onload=menuFix;
 					<ul id="nav">
 					<li><a href="index.jsp">网站首页</a>
 					</li>
-					<li><a href="newsList.jsp">科研动态</a>
+					<li><a href="newsList?articleInfoDto.type=xmgg&pageSize=20&pageNo=1">科研动态</a>
 					<ul>
-					<li><a href="#">项目公告</a></li>
-					<li><a href="#">学术动态</a></li>
-					<li><a href="#">图片新闻</a></li>
+					<li><a href="newsList?articleInfoDto.type=xmgg&pageSize=20&pageNo=1">项目公告</a></li>
+					<li><a href="newsList?articleInfoDto.type=xsdt&pageSize=20&pageNo=1">学术动态</a></li>
+					<li><a href="newsList?articleInfoDto.type=tpxw&pageSize=20&pageNo=1">图片新闻</a></li>
 					</ul>
 					</li>
-					<li><a href="#">项目介绍</a>
+					<li><a href="newsList?articleInfoDto.type=xmsm&pageSize=20&pageNo=1">项目介绍</a>
 					<ul>
-					<li><a href="#">项目说明</a></li>
-					<li><a href="#">项目组构成</a></li>
-					<li><a href="#">相关研究论文</a></li>
-					<li><a href="#">研究队伍</a></li>
+					<li><a href="newsList?articleInfoDto.type=xmsm&pageSize=20&pageNo=1">项目说明</a></li>
+					<li><a href="newsList?articleInfoDto.type=xmzgc&pageSize=20&pageNo=1">项目组构成</a></li>
+					<li><a href="newsList?articleInfoDto.type=xglwyj&pageSize=20&pageNo=1">相关研究论文</a></li>
+					<li><a href="newsList?articleInfoDto.type=yjdw&pageSize=20&pageNo=1">研究队伍</a></li>
 					</ul>
 					</li>
-					<li><a href="#">相关知识</a>
+					<li><a href="newsList?articleInfoDto.type=xglwyje&pageSize=20&pageNo=1">相关知识</a>
 					<ul>
-					<li><a href="#">相关研究论文（英文）</a></li>
-					<li><a href="#">水稻细菌性病害研究论文（中文）</a></li>
-					<li><a href="#">水稻细菌性病害学位论文（中文）</a></li>
+					<li><a href="newsList?articleInfoDto.type=xglwyje&pageSize=20&pageNo=1">相关研究论文（英文）</a></li>
+					<li><a href="newsList?articleInfoDto.type=xjxwpaperz&pageSize=20&pageNo=1">水稻细菌性病害研究论文（中文）</a></li>
+					<li><a href="newsList?articleInfoDto.type=xjyjpaperz&pageSize=20&pageNo=1">水稻细菌性病害学位论文（中文）</a></li>
 					</ul>
 					</li>
 					
-					<li><a href="#">项目进展</a>
+					<li><a href="newsList?articleInfoDto.type=specialPaper&pageSize=20&pageNo=1">项目进展</a>
 					<ul>
-					<li><a href="#">标注(nyhyzx07-056)支持的论文</a></li>
-					<li><a href="#">工作进展</a></li>
+					<li><a href="newsList?articleInfoDto.type=specialPaper&pageSize=20&pageNo=1">标注(nyhyzx07-056)支持的论文</a></li>
+					<li><a href="newsList?articleInfoDto.type=workprocess&pageSize=20&pageNo=1">工作进展</a></li>
 					</ul>
 					</li>
-					<li><a href="#">远程诊断</a>
+					<li><a href="newsList?articleInfoDto.type=imageDiagnose&pageSize=20&pageNo=1">远程诊断</a>
 					<ul>
-					<li><a href="#">图文诊断</a></li>
-					<li><a href="#">视频诊断</a></li>
-					<li><a href="#">其他诊断</a></li>
+					<li><a href="newsList?articleInfoDto.type=imageDiagnose&pageSize=20&pageNo=1">图文诊断</a></li>
+					<li><a href="newsList?articleInfoDto.type=vedioDiagnose&pageSize=20&pageNo=1">视频诊断</a></li>
+					<li><a href="newsList?articleInfoDto.type=otherDiagnose&pageSize=20&pageNo=1">其他诊断</a></li>
 					</ul>
 					</li>
-					<li><a href="#">专家答疑</a>
+					<li><a href="newsList?articleInfoDto.type=professialQuestion&pageSize=20&pageNo=1">专家答疑</a>
 					</li>
-				    <li><a href="#">专家队伍</a>
+				    <li><a href="newsList?articleInfoDto.type=zjdw&pageSize=20&pageNo=1">专家队伍</a>
 					</li>
-					<li><a href="#">联系我们</a>
+					<li><a href="newsList?articleInfoDto.type=lxwm&pageSize=20&pageNo=1">联系我们</a>
 					</li>					
 					</ul>
 					
