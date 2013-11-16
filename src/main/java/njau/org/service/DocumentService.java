@@ -132,4 +132,20 @@ public class DocumentService {
 		fillTotalCount(responseDto,pageNo,hql);
 		return responseDto;
 	}
+
+	public List<Document> findListByMultipleType(String types,
+			int pageNo, int pageSize) {
+		String hql = "From Document where isDelete=1 And ";
+		for (String type : types.split(",")) {
+			if (!type.trim().equals("")) {
+				hql += "type='" + type + "' OR ";
+			}
+		}
+		;
+		// 兼容最后一个OR
+		hql += "DocumentId=0";
+		hql += " order by updateTime desc";
+		return (List<Document>) documentDao.findList(hql, pageNo, pageSize);
+
+	}
 }

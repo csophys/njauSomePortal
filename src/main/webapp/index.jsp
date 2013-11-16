@@ -90,7 +90,7 @@
        				<img src="images/gongao.gif" width="244" height="25" />
 					 <ul id="announceList" style="margin-left:5px" >
 
-  						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
+  						<s:iterator value="@njau.org.action.DocumentAction@findDocument('项目公告')">
 							<li>
 							<span style="float:left;width: 60%;height:28px;overflow:hidden"><a  href="newsDetail?document.documentId=<s:property value='documentId'/>" ><s:property value="title" /></a></span><span style="margin-left:30px"></span>
 							</li>
@@ -135,7 +135,7 @@
        		<img src="images/jinzhan.gif" width="244" height="25" />
 					 <ul class="newsList" >
 
-  						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
+  						<s:iterator value="@njau.org.action.DocumentAction@findListByMultipleType('标注(nyhyzx07-056)支持的论文,工作进展')">
 							<li>
 							<span style="float:left;width: 60%;height:28px;overflow:hidden"><a  href="newsDetail?document.documentId=<s:property value='documentId'/>" ><s:property value="title" /></a></span><span style="margin-left:30px"></span>
 							</li>
@@ -147,7 +147,7 @@
 				 <img src="images/xiangguanzhishi.gif" width="244" height="25" />      		
 					 <ul class="newsList" >
 
-  						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
+  						<s:iterator value="@njau.org.action.DocumentAction@findListByMultipleType('相关研究论文（英文）,水稻细菌性病害研究论文（中文）,水稻细菌性病害学位论文（中文）')">
 							<li>
 							<span style="float:left;width: 60%;height:28px;overflow:hidden"><a  href="newsDetail?document.documentId=<s:property value='documentId'/>" ><s:property value="title" /></a></span><span style="margin-left:10px"></span>
 							</li>
@@ -159,7 +159,7 @@
 				 <img src="images/yuancheng.gif" width="244" height="25" />       		
 					 <ul class="newsList" >
 
-  						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
+  						<s:iterator value="@njau.org.action.DocumentAction@findListByMultipleType('图文诊断,视频诊断,其他诊断')">
 							<li>
 							<span style="float:left;width: 60%;height:28px;overflow:hidden"><a  href="newsDetail?document.documentId=<s:property value='documentId'/>" ><s:property value="title" /></a></span><span style="margin-left:30px"></span>
 							</li>
@@ -171,7 +171,7 @@
 				  <img src="images/dayi.gif" width="244" height="25" />       		
 					 <ul class="newsList" >
 
-  						<s:iterator value="@njau.org.action.DocumentAction@findDocument('新闻资讯')">
+  						<s:iterator value="@njau.org.action.DocumentAction@findDocument('专家答疑')">
 							<li>
 							<span style="float:left;width: 60%;height:28px;overflow:hidden"><a  href="newsDetail?document.documentId=<s:property value='documentId'/>" ><s:property value="title" /></a></span><span style="margin-left:30px"></span>
 							</li>

@@ -34,9 +34,7 @@
        <div>
        	<div class="leftNavigation">
        		<ul class="newsList">
-         	  <li><a href="">项目公告</a></li>
-       		  <li><a href="">学术动态</a></li>
-       		  <li><a href="">图片新闻</a></li>         		         		         		  
+					<li><a href="newsList?articleInfoDto.type=professialQuestion&pageSize=20&pageNo=1">专家答疑</a>       		
        		</ul>
        	</div>
        	<div class="rightArea" >
@@ -44,7 +42,7 @@
        			 <img  src="images/image2.jpg"></img>
        		</div>
        		<table>
-       		<tr><td><img src="images/moduleNameIcon.jpg"></td><td><span class="moduleName">科研动态</span></td></tr>
+       		<tr><td><img src="images/moduleNameIcon.jpg"></td><td><span class="moduleName">专家答疑</span></td></tr>
        		</table>       		
        		<div class="newsListArea">
        		<ul class="normalNewsList">
@@ -61,9 +59,10 @@
 				 	<span style="margin-right:30px">当前页：<b><s:property value="pageNo"/></b></span>
 				 
 				 	<!-- 分页调转改成js，然后做边界验证 -->
-					<span><a href="newsList?articleInfoDto.type=xwzx&pageSize=20&pageNo=<s:property value='pageNo-1'/>&totalPage=<s:property value='totalPage'/>" >前一页</a></span>
+				 	
+					<span><a href="newsList?articleInfoDto.type=<s:property value='moduleKey'/>&pageSize=20&pageNo=<s:property value='pageNo-1'/>&totalPage=<s:property value='totalPage'/>" >前一页</a></span>
 				
-				  	<span><a style="margin:0 20 0 20" href="newsList?articleInfoDto.type=xwzx&pageSize=20&pageNo=<s:property value='pageNo+1'/>&totalPage=<s:property value='totalPage'/>">后一页</a></span>	
+				  	<span><a style="margin:0 20 0 20" href="newsList?articleInfoDto.type=<s:property value='moduleKey'/>&pageSize=20&pageNo=<s:property value='pageNo+1'/>&totalPage=<s:property value='totalPage'/>">后一页</a></span>	
   	          		
   	          		
   	          		<!--<span>转到 <s:textfield cssStyle="width:25px" name="pageNo"></s:textfield> 页</span>-->

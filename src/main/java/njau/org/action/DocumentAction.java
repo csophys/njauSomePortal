@@ -29,6 +29,8 @@ public class DocumentAction extends BaseAction{
 	private int id;
 	@Getter
 	private String msg;
+	@Getter
+	private String moduleKey;
 	
 	public ArticleInfoDto articleInfoDto;
 	
@@ -178,6 +180,7 @@ public class DocumentAction extends BaseAction{
 	}
 	
 	public String findDocumentList(){
+		moduleKey = articleInfoDto.getType();
 		if (articleInfoDto.getType().equals("xmgg")) {
 			articleInfoDto.setType("项目公告");
 			invokeFindDocumentList();
@@ -199,7 +202,7 @@ public class DocumentAction extends BaseAction{
 			invokeFindDocumentList();
 			return "projectInfo";
 		} else if (articleInfoDto.getType().equals("xglwyj")) {
-			articleInfoDto.setType("相关论文研究");
+			articleInfoDto.setType("相关研究论文");
 			invokeFindDocumentList();
 			return "projectInfo";
 		} else if (articleInfoDto.getType().equals("yjdw")) {
@@ -207,9 +210,9 @@ public class DocumentAction extends BaseAction{
 			invokeFindDocumentList();
 			return "projectInfo";
 		} else if (articleInfoDto.getType().equals("xglwyje")) {
-			articleInfoDto.setType("相关论文研究（英文）");
+			articleInfoDto.setType("相关研究论文（英文）");
 			invokeFindDocumentList();
-			return "projectInfo";
+			return "paper";
 		} else if (articleInfoDto.getType().equals("xjyjpaperz")) {
 			articleInfoDto.setType("水稻细菌性病害研究论文（中文）");
 			invokeFindDocumentList();
@@ -219,7 +222,7 @@ public class DocumentAction extends BaseAction{
 			invokeFindDocumentList();
 			return "paper";
 		} else if (articleInfoDto.getType().equals("specialPaper")) {
-			articleInfoDto.setType("相标注(nyhyzx07-056)支持的论文");
+			articleInfoDto.setType("标注(nyhyzx07-056)支持的论文");
 			invokeFindDocumentList();
 			return "projectprocess";
 		} else if (articleInfoDto.getType().equals("workprocess")) {
@@ -227,7 +230,7 @@ public class DocumentAction extends BaseAction{
 			invokeFindDocumentList();
 			return "projectprocess";
 		} else if (articleInfoDto.getType().equals("imageDiagnose")) {
-			articleInfoDto.setType("图片诊断");
+			articleInfoDto.setType("图文诊断");
 			invokeFindDocumentList();
 			return "diagnose";
 		} else if (articleInfoDto.getType().equals("vedioDiagnose")) {
@@ -282,6 +285,10 @@ public class DocumentAction extends BaseAction{
 		return new DocumentService().findList(articleInfoDto, 1, 12).getRows();
 	}
 	
+	public static List<Document> findListByMultipleType(String types) {
+		return new DocumentService().findListByMultipleType(types, 1, 6);
+	}
+
 	// 首页获取image列表，最新六张照片
 	public static List<Document> findIndexImages() {
 		return new DocumentService().findImageList(1, 6, true).getRows();

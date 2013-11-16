@@ -60,10 +60,10 @@
 				<option value="项目组构成">项目组构成</option>
 				<option value="相关研究论文">相关研究论文</option>
 				<option value="研究队伍">研究队伍</option>
-				<option value="相关研究论文">相关研究论文 (英文)</option>
-				<option value="水稻细菌性病害研究论文">水稻细菌性病害研究论文(中文)</option>
-				<option value="水稻细菌性病害学位论文">水稻细菌性病害学位论文 (中文) </option>
-				<option value="标注">标注(nyhyzx07-056)支持的论文</option>
+				<option value="相关研究论文（英文）">相关研究论文（英文）</option>
+				<option value="水稻细菌性病害研究论文（中文）">水稻细菌性病害研究论文（中文）</option>
+				<option value="水稻细菌性病害学位论文（中文）">水稻细菌性病害学位论文（中文）</option>
+				<option value="标注(nyhyzx07-056)支持的论文">标注(nyhyzx07-056)支持的论文</option>
 				<option value="工作进展">工作进展</option>
 				<option value="图文诊断">图文诊断</option>
 				<option value="视频诊断">视频诊断</option>
