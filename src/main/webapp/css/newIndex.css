@@ -1,0 +1,126 @@
+/* CSS Document */
+
+
+body,div{ margin:0 auto; padding:0;text-align:center; border:0;  font-size:12px;}
+
+
+img{ border:0;}
+
+a{ text-decoration:none; color:#000;}
+a:hover{ text-decoration:none; color:#F00;}
+
+.all{ width:995px; background-color:#FFF;margin:0 auto;}
+
+.title{ background:url(../images/divTitleImage/title.png) no-repeat top center; width:995px; height:130px;}
+.zx-nav a{ display:block; color:#00830c;font-weight:bold; background:#FFF;}
+.left{ float:left; width:24.9%; background:#9AF1A7; height:690px; border:1px solid #FFF;}
+.welcomeuser{ background:url(../images/divTitleImage/welcomeuser.gif) no-repeat 0 0; width:100%; height:33px; line-height:33px; padding-left:25px; text-align:left;}
+.button04 {border:1px solid #00820c; width:66px; height:22px; line-height:22px; background:url(../images/divTitleImage/button5.gif) repeat-x 0  bottom; text-align:center;}
+.button04:hover {border:1px solid #b39800; background:url(../images/divTitleImage/button5-.gif) repeat-x 0 bottom; text-align:center;}
+.tztg{ background:url(../images/divTitleImage/left-title.gif) repeat-x top; width:248px; height:300px; text-align:left; overflow:hidden;}
+.loginArea{ background:url(../images/divTitleImage/left-title.gif) repeat-x top; width:248px; height:125px; text-align:left; overflow:hidden;}
+.tztg ul{ clear:both; text-align:left; padding-right:10px; line-height:23px; margin-top:5px; padding-left:25px; _margin-left:0px; height:300px; overflow:hidden;}
+.bt-left{ font-weight:bold; font-size:14px; padding-left:20px; float:left; height:29px; line-height:29px;}
+.more{height:29px; line-height:29px; padding-right:10px; float:right; text-align:right;}
+.left-button{ height:93px; background:#ccc; padding:5px; margin:0 3px 0 3px;}
+.left-button img{ margin-bottom:5px;}
+.cyjs{ background:url(../images/divTitleImage/left-title.gif) repeat-x top; width:248px; height:254px; text-align:left; overflow:hidden;}
+.cyjs ul{ clear:both; text-align:left; padding:0px 10px 0 25px; line-height:22px; margin-top:5px;height:222px;}
+
+.right{ float:left; width:745px;_width:720px; background:#FFF; }
+.news{ width:294px; height:247px; float:left; margin-top:5px; margin-left:3px; margin-bottom:12px;margin-right: 5px}
+.news a{ display:block; background:#e9e9e9; height:30px; line-height:30px; width:286px;margin-left:4px;}
+.yfdt{ float:left; background:url(../images/divTitleImage/left-title.gif) repeat-x top; height:247px; width:426px;_width:415px; margin-left:15px;_margin-left:2px; margin-top:6px; }
+.yfdt ul{ clear:both; text-align:left; margin-left:18px; line-height:23px;}
+.yfdt .t{word-break:keep-all; width:290px;_width:280px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; height:23px; line-height:23px; float:right;}
+.yfdt .date{ margin-left:30px; color:#7f7f7f; float:right; margin-right:15px;}
+
+/*.xmwz{ clear:both; background:url(../images/divTitleImage/xmwz-bg.gif) no-repeat top; width:734px;_width:690px; height:205px;}*/
+.xmwz{ float:left; background:url(../images/divTitleImage/left-title.gif) repeat-x top; width:744px;_width:690px; height:205px; overflow:hidden }
+.xmwz ul{ clear:both; text-align:left; margin-left:30px; _margin-left:15px; line-height:22px;}
+/*.wzl{ clear:both; float:left; *margin-top:30px; width:40%;}
+.wzl1{  float:left; *margin-top:30px;}*/
+/*.zdbf{ float:left; background:url(../images/divTitleImage/zdbf-bg.gif) no-repeat top; width:357px;_width:350px; height:205px; margin-left:8px;_margin-left:1px;}*/
+.zdbf{ float:left; background:url(../images/divTitleImage/left-title.gif) repeat-x top; width:357px;_width:350px; height:205px; margin-left:8px;_margin-left:1px;}
+.zdbf ul{ clear:both;text-align:left; margin-top:14px; line-height:23px; margin-left:30px; padding-top:10px\0;}
+/*.kjcg{ float:left; background:url(../images/divTitleImage/kjcg-bg.gif) no-repeat top left; width:365px;_width:350px; height:205px; margin-left:8px;_margin-left:1px;}*/
+.kjcg{ float:left; background:url(../images/divTitleImage/left-title.gif) repeat-x top left;width:365px;_width:350px; height:205px; margin-left:8px;_margin-left:1px;}
+.kjcg ul{ clear:both;text-align:left; margin-top:14px;line-height:23px; margin-left:30px; padding-top:10px\0;}
+.foot{ clear:both; width:995px; border-top:2px solid #00c419; height:55px; line-height:20px; text-align:center; padding-top:10px; font-size:14px;}
+
+.kjcg ul li, .zdbf ul li, .yfdt ul li{height: 23px; }
+.keep a{word-break:keep-all; width:248px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; height:23px; line-height:23px; display:block; float:right;}
+.keep span{float:right; color:#7f7f7f;}
+.tztg span, .cyjs span{color:#7f7f7f;}
+.kjcg .keep a{width:246px;}
+#menu{
+	width:100%;
+	background-color: #B0151B	
+}
+/*button的默认样式*/
+.sfbutton{
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgb(240, 250, 223);
+	/*background-image: url(https://cs5.salesforce.com/img/alohaSkin/btn_sprite.png);*/
+	background-origin: padding-box;
+	background-position: 100% -30px;
+	background-repeat: repeat-x;
+	background-size: auto;
+	border-bottom-color: rgb(127, 127, 127);
+	border-bottom-left-radius: 2.9861111640930176px;
+	border-bottom-right-radius: 2.9861111640930176px;
+	border-bottom-style: solid;
+	border-bottom-width: 1.1111111640930176px;
+	border-collapse: separate;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(181, 181, 181);
+	border-left-style: solid;
+	border-left-width: 1.1111111640930176px;
+	border-right-color: rgb(181, 181, 181);
+	border-right-style: solid;
+	border-right-width: 1.1111111640930176px;
+	border-top-color: rgb(181, 181, 181);
+	border-top-left-radius: 2.9861111640930176px;
+	border-top-right-radius: 2.9861111640930176px;
+	border-top-style: solid;
+	border-top-width: 1.1111111640930176px;
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 微软雅黑,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: normal;
+	line-height: normal;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 1px;
+	text-align: center;
+	text-indent: 0px;
+	text-shadow: none;
+	text-transform: none;
+	white-space: pre;
+	word-spacing: 0px;
+	writing-mode: lr-tb;
+	}
+	
+.documentList li{
+	list-style-type : none;
+	height:28px; /*列表项的高度*/ 
+	line-height:28px; /*列表项的行高，行高与高设为相同，文字垂直居中*/ 
+	text-indent:13px; /*文字缩进15个像素，不然压到图表了*/ 
+	background-position:left 45%; /*北京图片的定位*/ 
+	background-repeat:no-repeat; /*禁止图片平铺，显示一个就好了*/ 	
+	background-image:url("../images/category.gif");
+}	

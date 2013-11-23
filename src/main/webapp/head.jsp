@@ -9,59 +9,59 @@ font-family: arial, 宋体, serif;
 }
 
 
-#nav {
+#menuNav {
     line-height: 24px;    list-style-type: none; background:#B0151B;
 }
 
-#nav a {
+#menuNav a {
 display: block; width: 80px; text-align:center;
 }
 
-#nav a:link    {
+#menuNav a:link    {
 color:white; text-decoration:none;
 }
-#nav a:visited    {
+#menuNav a:visited    {
 color:white;text-decoration:none;
 }
-#nav a:hover    {
+#menuNav a:hover    {
 color:white;text-decoration:none;font-weight:bold;
 }
 
-#nav li {
+#menuNav li {
 float: left; width: 110px; background:#B0151B; /* 这里调整每一个li的长度 还有 颜色*/
 }
-#nav li a:hover{
+#menuNav li a:hover{
 background:#999;
 }
-#nav li ul {
+#menuNav li ul {
 line-height: 27px;    list-style-type: none;text-align:left;
-left: -999em; width: 180px; position: absolute; 
+left:-999em ;width: 180px; position: absolute; z-index: 9999
 }
-#nav li ul li{
+#menuNav li ul li{
 float: left; width: 180px;
 background: #F6F6F6; 
 }
 
 
-#nav li ul a{
+#menuNav li ul a{
 display: block; width: 180px;width: 156px;text-align:left;padding-left:24px;
 }
 
-#nav li ul a:link    {
+#menuNav li ul a:link    {
 color:#666; text-decoration:none;
 }
-#nav li ul a:visited    {
+#menuNav li ul a:visited    {
 color:#666;text-decoration:none;
 }
-#nav li ul a:hover    {
+#menuNav li ul a:hover    {
 color:#F3F3F3;text-decoration:none;font-weight:normal;
 background:#C00;
 }
 
-#nav li:hover ul {
+#menuNav li:hover ul {
 left: auto;
 }
-#nav li.sfhover ul {
+#menuNav li.sfhover ul {
 left: auto;
 }
 #content {
@@ -74,7 +74,7 @@ clear: left;
 
 <script type=text/javascript><!--//--><![CDATA[//><!--
 function menuFix() {
-var sfEls = document.getElementById("nav").getElementsByTagName("li");
+var sfEls = document.getElementById("menuNav").getElementsByTagName("li");
 for (var i=0; i<sfEls.length; i++) {
     sfEls[i].onmouseover=function() {
     this.className+=(this.className.length>0? " ": "") + "sfhover";
@@ -98,49 +98,40 @@ window.onload=menuFix;
 </script>	
 
        <div id="header">
-	       	   <div id="banner">
+	       	   <div class="title">
 	       	   </div>
-	       	   <div id="menu" style="text-align:center;" >
-					<ul id="nav">
+	       	   <div id="menu" class="preHide" style="display:none" >
+					<ul id="menuNav">
 					<li><a href="index.jsp">网站首页</a>
 					</li>
 					<li><a href="newsList?articleInfoDto.type=xmgg&pageSize=20&pageNo=1">科研动态</a>
 					<ul>
 					<li><a href="newsList?articleInfoDto.type=xmgg&pageSize=20&pageNo=1">项目公告</a></li>
-					<li><a href="newsList?articleInfoDto.type=xsdt&pageSize=20&pageNo=1">学术动态</a></li>
-					<li><a href="newsList?articleInfoDto.type=tpxw&pageSize=20&pageNo=1">图片新闻</a></li>
+					<li><a href="newsList?articleInfoDto.type=xsdt&pageSize=20&pageNo=1">项目动态</a></li>
 					</ul>
 					</li>
 					<li><a href="newsList?articleInfoDto.type=xmsm&pageSize=20&pageNo=1">项目介绍</a>
 					<ul>
-					<li><a href="newsList?articleInfoDto.type=xmsm&pageSize=20&pageNo=1">项目说明</a></li>
-					<li><a href="newsList?articleInfoDto.type=xmzgc&pageSize=20&pageNo=1">项目组构成</a></li>
-					<li><a href="newsList?articleInfoDto.type=xglwyj&pageSize=20&pageNo=1">相关研究论文</a></li>
-					<li><a href="newsList?articleInfoDto.type=yjdw&pageSize=20&pageNo=1">研究队伍</a></li>
+					<li><a href="newsList?articleInfoDto.type=xmsm&pageSize=20&pageNo=1">项目简介</a></li>
+					<li><a href="newsList?articleInfoDto.type=xmzgc&pageSize=20&pageNo=1">项目组成</a></li>
 					</ul>
 					</li>
 					<li><a href="newsList?articleInfoDto.type=xglwyje&pageSize=20&pageNo=1">相关知识</a>
 					<ul>
+					<li><a href="newsList?articleInfoDto.type=xglwyj&pageSize=20&pageNo=1">相关研究论文（中文）</a></li>					
 					<li><a href="newsList?articleInfoDto.type=xglwyje&pageSize=20&pageNo=1">相关研究论文（英文）</a></li>
-					<li><a href="newsList?articleInfoDto.type=xjxwpaperz&pageSize=20&pageNo=1">水稻细菌性病害研究论文（中文）</a></li>
-					<li><a href="newsList?articleInfoDto.type=xjyjpaperz&pageSize=20&pageNo=1">水稻细菌性病害学位论文（中文）</a></li>
 					</ul>
 					</li>
 					
 					<li><a href="newsList?articleInfoDto.type=specialPaper&pageSize=20&pageNo=1">项目进展</a>
 					<ul>
-					<li><a href="newsList?articleInfoDto.type=specialPaper&pageSize=20&pageNo=1">标注(nyhyzx07-056)支持的论文</a></li>
+					<li><a href="newsList?articleInfoDto.type=specialPaper&pageSize=20&pageNo=1">发表论文</a></li>
 					<li><a href="newsList?articleInfoDto.type=workprocess&pageSize=20&pageNo=1">工作进展</a></li>
 					</ul>
 					</li>
-					<li><a href="newsList?articleInfoDto.type=imageDiagnose&pageSize=20&pageNo=1">远程诊断</a>
-					<ul>
-					<li><a href="newsList?articleInfoDto.type=imageDiagnose&pageSize=20&pageNo=1">图文诊断</a></li>
-					<li><a href="newsList?articleInfoDto.type=vedioDiagnose&pageSize=20&pageNo=1">视频诊断</a></li>
-					<li><a href="newsList?articleInfoDto.type=otherDiagnose&pageSize=20&pageNo=1">其他诊断</a></li>
-					</ul>
+					<li><a href="newsList?articleInfoDto.type=glzd&pageSize=20&pageNo=1">管理制度</a>
 					</li>
-					<li><a href="newsList?articleInfoDto.type=professialQuestion&pageSize=20&pageNo=1">专家答疑</a>
+					<li><a href="newsList?articleInfoDto.type=qjjs&pageSize=20&pageNo=1">轻简技术</a>
 					</li>
 				    <li><a href="newsList?articleInfoDto.type=zjdw&pageSize=20&pageNo=1">专家队伍</a>
 					</li>

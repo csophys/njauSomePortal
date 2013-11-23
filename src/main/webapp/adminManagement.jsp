@@ -81,7 +81,7 @@
 		 </div>
     
 
-	       <div title="图片管理" data-options="" style="padding:20px">
+	       <div  data-options="" style="padding:20px">
 			   <table id="imageDataGrid" title="图片列表" class="easyui-datagrid"  style="height:450px">
   			  </table>
 	       </div>
