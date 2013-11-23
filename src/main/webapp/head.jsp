@@ -116,7 +116,7 @@ window.onload=menuFix;
 					<li><a href="newsList?articleInfoDto.type=xmzgc&pageSize=20&pageNo=1">项目组成</a></li>
 					</ul>
 					</li>
-					<li><a href="newsList?articleInfoDto.type=xglwyje&pageSize=20&pageNo=1">相关知识</a>
+					<li><a href="newsList?articleInfoDto.type=xglwyj&pageSize=20&pageNo=1">相关知识</a>
 					<ul>
 					<li><a href="newsList?articleInfoDto.type=xglwyj&pageSize=20&pageNo=1">相关研究论文（中文）</a></li>					
 					<li><a href="newsList?articleInfoDto.type=xglwyje&pageSize=20&pageNo=1">相关研究论文（英文）</a></li>
