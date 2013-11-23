@@ -58,7 +58,7 @@
 	</script>		
 	</head>
 	<body>
-		<div class="all">
+		<div class="all preHide" style="display:none">
 		<jsp:include page="head.jsp"></jsp:include>
 		<!-- 
 <div class="title"></div>
@@ -72,7 +72,7 @@
          <li style="background:none;"><a href="project.do?method=siteList">项目网站</a></li>
 </ol>
  -->
-<div class="left preHide"  style="display:none">
+<div class="left preHide"  >
        	 	<div class="loginArea" style="width:100%;margin:10px 0 10px 0;text-align:center;">
        	 	<div class="bt-left">用户登陆</div> 
 	       	 	<form id="login" class="preHide" action="adminManagement.jsp" method="post" >

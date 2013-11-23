@@ -34,13 +34,12 @@
        <div>
        	<div class="leftNavigation">
        		<ul class="newsList">
-					<li><a href="newsList?articleInfoDto.type=specialPaper&pageSize=20&pageNo=1">标注(nyhyzx07-056)支持的论文</a></li>
+					<li><a href="newsList?articleInfoDto.type=specialPaper&pageSize=20&pageNo=1">发表论文</a></li>
 					<li><a href="newsList?articleInfoDto.type=workprocess&pageSize=20&pageNo=1">工作进展</a></li>
        		</ul>
        	</div>
        	<div class="rightArea" >
        		<div id="imageArea">
-       			 <img  src="images/image2.jpg"></img>
        		</div>
        		<table>
        		<tr><td><img src="images/moduleNameIcon.jpg"></td><td><span class="moduleName">项目进展</span></td></tr>

@@ -34,15 +34,11 @@
        <div>
        	<div class="leftNavigation">
        		<ul class="newsList">
+					<li><a href="newsList?articleInfoDto.type=xglwyj&pageSize=20&pageNo=1">相关研究论文（中文）</a></li>       		
 					<li><a href="newsList?articleInfoDto.type=xglwyje&pageSize=20&pageNo=1">相关研究论文（英文）</a></li>
-					<li><a href="newsList?articleInfoDto.type=xjxwpaperz&pageSize=20&pageNo=1">水稻细菌性病害研究论文（中文）</a></li>
-					<li><a href="newsList?articleInfoDto.type=xjyjpaperz&pageSize=20&pageNo=1">水稻细菌性病害学位论文（中文）</a></li>
        		</ul>
        	</div>
        	<div class="rightArea" >
-       		<div id="imageArea">
-       			 <img  src="images/image2.jpg"></img>
-       		</div>
        		<table>
        		<tr><td><img src="images/moduleNameIcon.jpg"></td><td><span class="moduleName">相关知识</span></td></tr>
        		</table>       		

@@ -34,39 +34,30 @@
        <div>
        	<div class="leftNavigation">
        		<ul class="newsList">
-					<li><a href="newsList?articleInfoDto.type=professialQuestion&pageSize=20&pageNo=1">专家答疑</a>       		
+					<li><a href="newsList?articleInfoDto.type=glzd&pageSize=20&pageNo=1">管理制度</a></li>
        		</ul>
        	</div>
        	<div class="rightArea" >
        		<div id="imageArea">
-       			 <img  src="images/image2.jpg"></img>
        		</div>
        		<table>
-       		<tr><td><img src="images/moduleNameIcon.jpg"></td><td><span class="moduleName">专家答疑</span></td></tr>
+       		<tr><td><img src="images/moduleNameIcon.jpg"></td><td><span class="moduleName">管理制度</span></td></tr>
        		</table>       		
        		<div class="newsListArea">
        		<ul class="normalNewsList">
-       			 		<s:iterator value="documentList">
-							<li>
-							<span><a  href="newsDetail?document.documentId=<s:property value='documentId'/>" ><s:property value="title" /></a></span>
-							</li>
-						</s:iterator>
+       		<s:iterator  value="documentList" status="status">
+      			<s:if test="#status.getIndex()==0"> 
+      			   		 <s:property value="content" escape="false"/>		
+                </s:if>
+                    
+                        <s:else>      
+
+						</s:else>    
+               
+                     </s:iterator>
+
 			</ul>						
        		</div>
- 			   <div style="text-align:right;padding-top:20px">
-					<!-- TODO:分页样式及js优化 -->
-				 	<span>总页数：<i><s:property value="totalPage"/></i></span>
-				 	<span style="margin-right:30px">当前页：<b><s:property value="pageNo"/></b></span>
-				 
-				 	<!-- 分页调转改成js，然后做边界验证 -->
-				 	
-					<span><a href="newsList?articleInfoDto.type=<s:property value='moduleKey'/>&pageSize=20&pageNo=<s:property value='pageNo-1'/>&totalPage=<s:property value='totalPage'/>" >前一页</a></span>
-				
-				  	<span><a style="margin:0 20 0 20" href="newsList?articleInfoDto.type=<s:property value='moduleKey'/>&pageSize=20&pageNo=<s:property value='pageNo+1'/>&totalPage=<s:property value='totalPage'/>">后一页</a></span>	
-  	          		
-  	          		
-  	          		<!--<span>转到 <s:textfield cssStyle="width:25px" name="pageNo"></s:textfield> 页</span>-->
-  	          </div>       		
        	</div>
        </div>
  

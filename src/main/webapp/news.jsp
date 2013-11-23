@@ -35,13 +35,11 @@
        	<div class="leftNavigation">
        		<ul class="newsList">
 					<li><a href="newsList?articleInfoDto.type=xmgg&pageSize=20&pageNo=1">项目公告</a></li>
-					<li><a href="newsList?articleInfoDto.type=xsdt&pageSize=20&pageNo=1">学术动态</a></li>
-					<li><a href="newsList?articleInfoDto.type=tpxw&pageSize=20&pageNo=1">图片新闻</a></li>        		         		         		  
+					<li><a href="newsList?articleInfoDto.type=xsdt&pageSize=20&pageNo=1">项目动态</a></li>
        		</ul>
        	</div>
        	<div class="rightArea" >
        		<div id="imageArea">
-       			 <img  src="images/image2.jpg"></img>
        		</div>
        		<table>
        		<tr><td><img src="images/moduleNameIcon.jpg"></td><td><span class="moduleName">科研动态</span></td></tr>

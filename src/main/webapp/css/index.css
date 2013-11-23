@@ -14,7 +14,7 @@ img{
 .newsList{
 	margin-left: 5px
 }
-
+.title{ background:url(../images/divTitleImage/title.png) no-repeat top center; width:995px; height:130px;}
 .newsList li{
 	list-style-type : none;
 	height:28px; /*列表项的高度*/ 

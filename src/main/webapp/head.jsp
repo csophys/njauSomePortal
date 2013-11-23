@@ -100,7 +100,7 @@ window.onload=menuFix;
        <div id="header">
 	       	   <div class="title">
 	       	   </div>
-	       	   <div id="menu" class="preHide" style="display:none" >
+	       	   <div id="menu">
 					<ul id="menuNav">
 					<li><a href="index.jsp">网站首页</a>
 					</li>

@@ -44,7 +44,8 @@ function createArticleDataGridTable() {
 		}, {
 			field : 'type',
 			title : '模块',
-			width : 100
+			width : 100,
+			formatter : formatterModuleName
 		}, {
 			field : 'addTime',
 			title : '添加时间',
@@ -351,6 +352,10 @@ function isShowOnIndex(value, rowData, rowIndex) {
 	} else {
 		return "是";
 	}
+}
+
+function formatterModuleName(value, rowData, rowIndex) {
+	return Module_Name_MAP[value];
 }
 
 function formatImageLink(value, rowData, rowIndex) {

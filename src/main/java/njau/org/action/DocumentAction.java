@@ -181,76 +181,29 @@ public class DocumentAction extends BaseAction{
 	
 	public String findDocumentList(){
 		moduleKey = articleInfoDto.getType();
-		if (articleInfoDto.getType().equals("xmgg")) {
-			articleInfoDto.setType("项目公告");
+		if (moduleKey.equals("xmgg") || articleInfoDto.getType().equals("xsdt")) {
 			invokeFindDocumentList();
 			return "news";
-		} else if (articleInfoDto.getType().equals("xsdt")) {
-			articleInfoDto.setType("学术动态");
-			invokeFindDocumentList();
-			return "news";
-		} else if (articleInfoDto.getType().equals("tpxw")) {
-			articleInfoDto.setType("图片新闻");
-			invokeFindDocumentList();
-			return "news";
-		} else if (articleInfoDto.getType().equals("xmsm")) {
-			articleInfoDto.setType("项目说明");
+		} else if (moduleKey.equals("xmsm") || moduleKey.equals("xmzgc")) {
 			invokeFindDocumentList();
 			return "projectInfo";
-		} else if (articleInfoDto.getType().equals("xmzgc")) {
-			articleInfoDto.setType("项目组构成");
-			invokeFindDocumentList();
-			return "projectInfo";
-		} else if (articleInfoDto.getType().equals("xglwyj")) {
-			articleInfoDto.setType("相关研究论文");
-			invokeFindDocumentList();
-			return "projectInfo";
-		} else if (articleInfoDto.getType().equals("yjdw")) {
-			articleInfoDto.setType("研究队伍");
-			invokeFindDocumentList();
-			return "projectInfo";
-		} else if (articleInfoDto.getType().equals("xglwyje")) {
-			articleInfoDto.setType("相关研究论文（英文）");
+		} else if (moduleKey.equals("xglwyj") || moduleKey.equals("xglwyje")) {
 			invokeFindDocumentList();
 			return "paper";
-		} else if (articleInfoDto.getType().equals("xjyjpaperz")) {
-			articleInfoDto.setType("水稻细菌性病害研究论文（中文）");
-			invokeFindDocumentList();
-			return "paper";
-		} else if (articleInfoDto.getType().equals("xjxwpaperz")) {
-			articleInfoDto.setType("水稻细菌性病害学位论文（中文）");
-			invokeFindDocumentList();
-			return "paper";
-		} else if (articleInfoDto.getType().equals("specialPaper")) {
-			articleInfoDto.setType("标注(nyhyzx07-056)支持的论文");
+		} else if (moduleKey.equals("specialPaper")
+				|| moduleKey.equals("workprocess")) {
 			invokeFindDocumentList();
 			return "projectprocess";
-		} else if (articleInfoDto.getType().equals("workprocess")) {
-			articleInfoDto.setType("工作进展");
+		} else if (moduleKey.equals("glzd")) {
 			invokeFindDocumentList();
-			return "projectprocess";
-		} else if (articleInfoDto.getType().equals("imageDiagnose")) {
-			articleInfoDto.setType("图文诊断");
+			return "glzd";
+		} else if (moduleKey.equals("qjjs")) {
 			invokeFindDocumentList();
-			return "diagnose";
-		} else if (articleInfoDto.getType().equals("vedioDiagnose")) {
-			articleInfoDto.setType("视频诊断");
-			invokeFindDocumentList();
-			return "diagnose";
-		} else if (articleInfoDto.getType().equals("otherDiagnose")) {
-			articleInfoDto.setType("其他诊断");
-			invokeFindDocumentList();
-			return "diagnose";
-		} else if (articleInfoDto.getType().equals("professialQuestion")) {
-			articleInfoDto.setType("专家答疑");
-			invokeFindDocumentList();
-			return "question";
-		} else if (articleInfoDto.getType().equals("zjdw")) {
-			articleInfoDto.setType("专家队伍");
+			return "qjjs";
+		} else if (moduleKey.equals("zjdw")) {
 			invokeFindDocumentList();
 			return "zjdw";
-		} else if (articleInfoDto.getType().equals("lxwm")) {
-			articleInfoDto.setType("联系我们");
+		} else if (moduleKey.equals("lxwm")) {
 			invokeFindDocumentList();
 			return "lxwm";
 		}

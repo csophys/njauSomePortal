@@ -31,22 +31,8 @@
 
 
    <!-- main body，中间部分 -->
-       <div>
-       	<div class="leftNavigation">
-       		<ul class="newsList">
-       		  <li><a href="">项目公告</a></li>
-       		  <li><a href="">学术动态</a></li>
-       		  <li><a href="">图片新闻</a></li>       		         		         		  
-       		</ul>
-       	</div>
+
        	<div class="rightArea" >
-       		<div id="imageArea">
-       			 <img  src="images/image2.jpg"></img>
-       		</div>
-       		<table>
-       		<tr><td><img src="images/moduleNameIcon.jpg"></td><td><span class="moduleName">科研动态</span></td></tr>
-       		</table>
-       		<!--  <div id="moduleTitle"><span class="moduleName">科研动态</span></div> -->
        		<div>
  				  <s:property value="document.content" escape="false"/>					
        		</div>

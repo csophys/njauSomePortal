@@ -39,7 +39,6 @@
        	</div>
        	<div class="rightArea" >
        		<div id="imageArea">
-       			 <img  src="images/image2.jpg"></img>
        		</div>
        		<table>
        		<tr><td><img src="images/moduleNameIcon.jpg"></td><td><span class="moduleName">专家队伍</span></td></tr>
