@@ -185,24 +185,36 @@
         <div class="more"><a href="news.do?method=showAll&amp;firstType=项目动态&amp;type=项目动态">更多&gt;&gt;</a></div> 
 		<ul>
 			
-				<li><span class="date">[2013-10-08]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察</a></span></li>
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>
+												<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>												
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>				
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>				
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>				
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>				
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>				
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>				
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>				
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>				
+				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>																																				
+			<!-- 
+				<li><span class="date">[2013-09-09]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4046" title="DUS测试品种信息DNA测试技术研究2013年8月份项目动态" target="_blank">DUS测试品种信息DNA测试技术研</a></span></li>
 			
-				<li><span class="date">[2013-09-09]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4046" title="DUS测试品种信息DNA测试技术研究2013年8月份项目动态" target="_blank">DUS测试品种信息DNA测试技术研究2013年8月份项目动态</a></span></li>
+				<li><span class="date">[2013-09-06]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4025" title="公益性行业（农业）科研专项“主要农畜产品品质安全快速检测关键技术与装备研究示范”项目”两项成果通过教育部科技成果鉴定" target="_blank">公益性行业（农业）科研专术与装通过教育部科技成果鉴定</a></span></li>
 			
-				<li><span class="date">[2013-09-06]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4025" title="公益性行业（农业）科研专项“主要农畜产品品质安全快速检测关键技术与装备研究示范”项目”两项成果通过教育部科技成果鉴定" target="_blank">公益性行业（农业）科研专项“主要农畜产品品质安全快速检测关键技术与装备研究示范”项目”两项成果通过教育部科技成果鉴定</a></span></li>
+				<li><span class="date">[2013-09-05]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4015" title="公益性行业（农业）科研专项“农产品产供安全过程管控技术研究与示范项目”云南会议纪要" target="_blank">公益性行业（农业）科研专项“农产品研究与示范项目”云南会议纪要</a></span></li>
 			
-				<li><span class="date">[2013-09-05]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4015" title="公益性行业（农业）科研专项“农产品产供安全过程管控技术研究与示范项目”云南会议纪要" target="_blank">公益性行业（农业）科研专项“农产品产供安全过程管控技术研究与示范项目”云南会议纪要</a></span></li>
+				<li><span class="date">[2013-09-02]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4005" title="《蓖麻产业技术研究与试验示范》项目2013年上半年工作总结会在吉林白城召开" target="_blank">《蓖麻产业技术研究与试验示范》项目20城召开</a></span></li>
 			
-				<li><span class="date">[2013-09-02]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4005" title="《蓖麻产业技术研究与试验示范》项目2013年上半年工作总结会在吉林白城召开" target="_blank">《蓖麻产业技术研究与试验示范》项目2013年上半年工作总结会在吉林白城召开</a></span></li>
-			
-				<li><span class="date">[2013-08-30]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=3999" title="公益性行业（农业）科研专项“北方旱地合理耕层构建技术及配套耕作机具研究与示范”开展田间观摩交流暨检查活动" target="_blank">公益性行业（农业）科研专项“北方旱地合理耕层构建技术及配套耕作机具研究与示范”开展田间观摩交流暨检查活动</a></span></li>
+				<li><span class="date">[2013-08-30]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=3999" title="公益性行业（农业）科研专项“北方旱地合理耕层构建技术及配套耕作机具研究与示范”开展田间观摩交流暨检查活动" target="_blank">公及配套耕作机具研究与示范”开展田间观摩交流暨检查活动</a></span></li>
 			
 				<li><span class="date">[2013-08-28]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=3897" title="2013年7月工作总结" target="_blank">2013年7月工作总结</a></span></li>
 			
-				<li><span class="date">[2013-08-26]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=3988" title="行业科技“干制辣椒”项目育成的两个雄性不育系通过云南省种子管理站组织的专家鉴定" target="_blank">行业科技“干制辣椒”项目育成的两个雄性不育系通过云南省种子管理站组织的专家鉴定</a></span></li>
+				<li><span class="date">[2013-08-26]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=3988" title="行业科技“干制辣椒”项目育成的两个雄性不育系通过云南省种子管理站组织的专家鉴定" target="_blank">行业科技云南省种子管理站组织的专家鉴定</a></span></li>
 			
-				<li><span class="date">[2013-08-24]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=3983" title="公益性行业（农业）科研专项“作物细菌性病害防控技术研究与示范”现场会在江苏泗阳召开" target="_blank">公益性行业（农业）科研专项“作物细菌性病害防控技术研究与示范”现场会在江苏泗阳召开</a></span></li>
-			
+				<li><span class="date">[2013-08-24]</span><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=3983" title="公益性行业（农业）科研专项“作物细菌性病害防控技术研究与示范”现场会在江苏泗阳召开" target="_blank">公益性研究与示范”现场会在江苏泗阳召开</a></span></li>
+			 -->
 		</ul>
     </div>
     <div class="xmwz documentList">

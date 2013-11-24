@@ -30,10 +30,10 @@ a:hover{ text-decoration:none; color:#F00;}
 .right{ float:left; width:745px;_width:720px; background:#FFF; }
 .news{ width:294px; height:247px; float:left; margin-top:5px; margin-left:3px; margin-bottom:12px;margin-right: 5px}
 .news a{ display:block; background:#e9e9e9; height:30px; line-height:30px; width:286px;margin-left:4px;}
-.yfdt{ float:left; background:url(../images/divTitleImage/left-title.gif) repeat-x top; height:247px; width:426px;_width:415px; margin-left:15px;_margin-left:2px; margin-top:6px; }
-.yfdt ul{ clear:both; text-align:left; margin-left:18px; line-height:23px;}
-.yfdt .t{word-break:keep-all; width:290px;_width:280px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; height:23px; line-height:23px; float:right;}
-.yfdt .date{ margin-left:30px; color:#7f7f7f; float:right; margin-right:15px;}
+.yfdt{ float:left; background:url(../images/divTitleImage/left-title.gif) repeat-x top; height:260px; width:426px;_width:415px; margin-left:15px;_margin-left:2px; margin-top:6px;overflow:hidden }
+.yfdt ul{ clear:both; text-align:left; margin-left:18px;margin-top:7px; line-height:23px;list-style-type: square;}
+.yfdt .t{word-break:keep-all; width:290px;_width:280px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; height:23px; line-height:23px;}
+.yfdt .date{ margin-left:30px; color:#7f7f7f;  margin-right:15px;}
 
 /*.xmwz{ clear:both; background:url(../images/divTitleImage/xmwz-bg.gif) no-repeat top; width:734px;_width:690px; height:205px;}*/
 .xmwz{ float:left; background:url(../images/divTitleImage/left-title.gif) repeat-x top; width:744px;_width:690px; height:205px; overflow:hidden }
@@ -49,6 +49,7 @@ a:hover{ text-decoration:none; color:#F00;}
 .foot{ clear:both; width:995px; border-top:2px solid #00c419; height:55px; line-height:20px; text-align:center; padding-top:10px; font-size:14px;}
 
 .kjcg ul li, .zdbf ul li, .yfdt ul li{height: 23px; }
+.keep li{list-style-type: none};
 .keep a{word-break:keep-all; width:248px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; height:23px; line-height:23px; display:block; float:right;}
 .keep span{float:right; color:#7f7f7f;}
 .tztg span, .cyjs span{color:#7f7f7f;}
@@ -123,4 +124,6 @@ a:hover{ text-decoration:none; color:#F00;}
 	background-position:left 45%; /*北京图片的定位*/ 
 	background-repeat:no-repeat; /*禁止图片平铺，显示一个就好了*/ 	
 	background-image:url("../images/category.gif");
-}	
+}
+
+	
