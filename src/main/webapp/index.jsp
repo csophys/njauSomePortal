@@ -53,6 +53,43 @@
 				      active: false
 				    }				 
 		      });
+		 
+		 
+		  $("#loginButton").click(function(){
+				 var loginname = $("#loginname").val();
+				 var loginPassword = $("#loginPassword").val();
+				 if(loginname==""||loginPassword=="") {
+					 alert("请输入用户名或密码！");
+					 return;
+				 }
+				 var param={
+					 "user.username":loginname,
+					 "user.password":loginPassword
+				 };
+				 $.ajax({
+						async : false,
+						type : "post",
+						dataType : "json",
+						data:param,
+						url : "<%=path %>/login", 
+						success : function(msg) {
+							if(msg.code == 200){
+								window.location.href="index.jsp";
+							}else{
+								alert(msg.msg);
+							}
+						}
+				 });
+
+			  });
+		
+		  $("#loginOutButton").click(function(){
+			  window.location.href="loginOut";
+		  });
+		  
+		  $("#regButton").click(function(){
+			 window.location.href="reg.jsp"; 
+		  });
 
 	})
 	</script>		
@@ -105,7 +142,8 @@
 	       	 	<span style="margin-top:20px;text-align:center;font-size:16px">欢迎你！<s:property value="#session['username']"/></span>
 	       	 	
 	       	 	<br/>
-	       	 	 <input type="button" style="margin-top:20px;" class="sfbutton"  id="loginOutButton" value="退出" />
+	       	 	<!-- <a style="margin-top:20px;" href="loginOut" id="loginOutButton" class="link-button">退出</a> -->
+        	 	 <input type="button" style="margin-top:20px;" class="sfbutton"  id="loginOutButton" value="退出" /> 
 	       	 	</s:else>
 		              
             	</table>

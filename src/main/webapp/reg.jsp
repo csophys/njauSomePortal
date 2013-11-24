@@ -111,7 +111,7 @@
 	                </div>
 		              <table width="100%" style="text-align: center;margin-top:10px">
 		              <tr>
-		              <td><a href="javascript:void(0)" onclick="submitForm()"  class="link-button regButton">登陆</a><a style="margin-left:10px" href="javascript:void(0)" onclick="clearForm()" class="link-button regButton">重置</a></td>
+		              <td><a href="javascript:void(0)" onclick="submitForm()"  class="link-button regButton">注册</a><a style="margin-left:10px" href="javascript:void(0)" onclick="clearForm()" class="link-button regButton">重置</a></td>
 		              </tr>
 		              </table>	                
 	               </form>
