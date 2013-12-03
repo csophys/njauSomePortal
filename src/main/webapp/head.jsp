@@ -5,12 +5,12 @@
 *{margin:0;padding:0;border:0;}
 body {
 font-family: arial, 宋体, serif;
-          font-size:12px;
+          font-size:16px;
 }
 
 
 #menuNav {
-    line-height: 24px;    list-style-type: none; background:#B0151B;
+    line-height: 30px;    list-style-type: none; background:#B0151B;
 }
 
 #menuNav a {
@@ -100,7 +100,7 @@ window.onload=menuFix;
        <div id="header">
 	       	   <div class="title">
 	       	   </div>
-	       	   <div id="menu">
+	       	   <div id="menu" style="font-size:14px">
 					<ul id="menuNav">
 					<li><a href="index.jsp">网站首页</a>
 					</li>

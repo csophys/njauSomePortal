@@ -157,10 +157,13 @@
  -->	
 <div class="tztg">
           <div class="bt-left">项目公告</div>  
-          <div class="more"><a href="news.do?method=showAll&amp;firstType=通知通告&amp;type=通知通告">更多&gt;&gt;</a></div> 
+          <div class="more"><a href="newsList?articleInfoDto.type=xmgg&pageSize=20&pageNo=1">更多&gt;&gt;</a></div> 
           <ul>
-          
-              <li><a href="news.do?method=indexshow&amp;type=通知通告&amp;id=4233" title="关于开展2009年度公益性行业（农业）科研专项经费项目验收工作的通知" target="_blank">关于开展2009年度公益性行业（农业）科研专项经费项目验收工作的通知</a><span>(10-28)</span></li>
+	          <s:iterator value="@njau.org.action.DocumentAction@findDocument('xmgg')">
+              <li><a href="newsDetail?document.documentId=<s:property value='documentId'/>" title="<s:property value="title" />" target="_blank"><s:property value="title" /></a><span>(<s:date nice="false" name="addTime" format="MM-dd" />)</span></li>	          
+              	  </s:iterator>
+			  
+
           
               <li><a href="news.do?method=indexshow&amp;type=通知通告&amp;id=3812" title="关于压减公益性行业（农业）科研专项2013年中央财政经费的预备通知" target="_blank">关于压减公益性行业（农业）科研专项2013年中央财政经费的预备通知</a><span>(07-12)</span></li>
           
@@ -183,8 +186,12 @@
 
 <div class="cyjs" style="border-top: 1px dashed gray;">
           <div class="bt-left">项目进展</div>  
-          <div class="more"><a href="news/txdtMore-new.jsp?firstType=体系动态">更多&gt;&gt;</a></div> 
+          <div class="more"><a href="newsList?articleInfoDto.type=specialPaper&pageSize=20&pageNo=1">更多&gt;&gt;</a></div> 
           <ul>
+	          <s:iterator value="@njau.org.action.DocumentAction@findDocument('specialPaper')">
+              <li><a href="newsDetail?document.documentId=<s:property value='documentId'/>" title="<s:property value="title" />" target="_blank"><s:property value="title" /></a><span>(<s:date nice="false" name="addTime" format="MM-dd" />)</span></li>	          
+              	  </s:iterator>
+          
                     
                <li><a href="news/txdtView-new.jsp?id=24931" title="河北省淡水养殖创新团队与国家产业技术体系对接暨淡水养殖创新技术培训班在廊坊召开" target="_blank">河北省淡水养殖创新团队与国家产业技术体系对接暨淡水养殖创新技术培训班在廊坊召开</a><span>(11-08)</span></li>
                      
@@ -220,8 +227,11 @@
      </div>
     <div class="yfdt">
         <div class="bt-left">项目动态</div> 
-        <div class="more"><a href="news.do?method=showAll&amp;firstType=项目动态&amp;type=项目动态">更多&gt;&gt;</a></div> 
+        <div class="more"><a href="newsList?articleInfoDto.type=xsdt&pageSize=20&pageNo=1">更多&gt;&gt;</a></div> 
 		<ul>
+	          <s:iterator value="@njau.org.action.DocumentAction@findDocument('xsdt')">
+              <li><span class="t"><a href="newsDetail?document.documentId=<s:property value='documentId'/>" title="<s:property value="title" />" target="_blank"><s:property value="title" /></a></span><span class="date">[<s:date nice="false" name="addTime" format="yyyy-MM-dd" />]</span></li>	          
+              	  </s:iterator>
 			
 				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>
 				<li><span class="t"><a href="news.do?method=indexshow&amp;type=研发动态&amp;id=4098" title="“苜蓿饲草料生产机械化关键工艺及装备的研发与示范”项目组赴美国南达科他州考察" target="_blank">“苜蓿饲草料生产机械化关键工艺及装蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺蓿饲草料生产机械化关键工艺</a></span><span class="date">[2013-10-08]</span></li>
@@ -257,7 +267,7 @@
     </div>
     <div class="xmwz documentList">
     <div class="bt-left">相关知识</div> 
-    <div class="more"><a href="project.do?method=siteList">更多&gt;&gt;</a></div>
+    <div class="more"><a href="newsList?articleInfoDto.type=xglwyj&pageSize=20&pageNo=1">更多&gt;&gt;</a></div>
     <div >
     <!-- 
     <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="2" direction="up" width="100%" height="160px">
@@ -268,6 +278,10 @@
     <td width="50%">
           <div class="wzl1">
           <ul>
+	          <s:iterator value="@njau.org.action.DocumentAction@findDocument('xglwyj')">
+              <li><a href="newsDetail?document.documentId=<s:property value='documentId'/>" title="<s:property value="title" />" target="_blank"><s:property value="title" /></a></li>	          
+              	  </s:iterator>
+          
           
               <li><a href="http://shrimp.fishinfo.cn/default.asp" title="对虾养殖管理信息系统研究与建立" target="_blank">对虾养殖管理信息系统研究与建立</a></li>
 					
@@ -325,6 +339,9 @@
 	<td>
          <div class="wzl1">
           <ul>
+	          <s:iterator value="@njau.org.action.DocumentAction@findDocument('xglwyje')">
+              <li><a href="newsDetail?document.documentId=<s:property value='documentId'/>" title="<s:property value="title" />" target="_blank"><s:property value="title" /></a></li>	          
+              	  </s:iterator>
 			
               <li><a href="http://www.chinacarrot.net" title="新型胡萝卜产业化技术体系研发及示范" target="_blank">新型胡萝卜产业化技术体系研发及示范</a></li>
 					
@@ -390,8 +407,11 @@
     </div>
     <div class="zdbf">
      <div class="bt-left">管理制度</div> 
-    <div class="more"><a href="news.do?method=showAll&amp;firstType=制度办法&amp;type=制度办法">更多&gt;&gt;</a></div>
+    <div class="more"><a href="newsList?articleInfoDto.type=glzd&pageSize=20&pageNo=1">更多&gt;&gt;</a></div>
 	<ul class="keep">
+	          <s:iterator value="@njau.org.action.DocumentAction@findDocument('glzd')">
+              <li><span>[<s:date nice="false" name="addTime" format="yyyy-MM-dd" />]</span><a href="newsDetail?document.documentId=<s:property value='documentId'/>" title="<s:property value="title" />" target="_blank"><s:property value="title" /></a></li>	          
+              	  </s:iterator>
 		
 		<li><span>[2010-12-16]</span><a href="news.do?method=indexshow&amp;type=制度办法&amp;id=315" title="公益性行业（农业）科研专项信用评价办法（试行）" target="_blank">公益性行业（农业）科研专项信用评价办法（试行）</a></li>
 		
@@ -403,8 +423,11 @@
     </div>
      <div class="kjcg">
      <div class="bt-left">轻简技术</div> 
-    <div class="more"><a href="news.do?method=showAll&amp;firstType=科技成果&amp;type=科技成果">更多&gt;&gt;</a></div>
+    <div class="more"><a href="newsList?articleInfoDto.type=qjjs&pageSize=20&pageNo=1">更多&gt;&gt;</a></div>
     <ul class="keep">
+	          <s:iterator value="@njau.org.action.DocumentAction@findDocument('qjjs')">
+              <li><span>[<s:date nice="false" name="addTime" format="yyyy-MM-dd" />]</span><a href="newsDetail?document.documentId=<s:property value='documentId'/>" title="<s:property value="title" />" target="_blank"><s:property value="title" /></a></li>	          
+              	  </s:iterator>
 	
 		<li><span>[2010-12-16]</span><a href="news.do?method=indexshow&amp;type=科技成果&amp;id=456" title="十一五成果--农业资源环境保护与可持续利用技术" target="_blank">十一五成果--农业资源环境保护与可持续利用技术</a></li>
 	
